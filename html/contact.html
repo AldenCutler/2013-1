@@ -2,14 +2,13 @@
 <html lang="en">
 
 <head>
-    <!-- Theme Made By www.w3schools.com - No Copyright -->
     <title>northwest studio</title>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
     <link rel="stylesheet" href="https://math.seattleacademy.org/aldencutler/2013-1/css/styles.css">
     <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
-    <link rel="shortcut icon" type="image/x-icon" href="https://monograph-media.s3.amazonaws.com/3c92cf11-a502-4cb3-b54c-c44cb6ac9b5c/favicon-32x32.png"/>
+    <link rel="shortcut icon" type="image/x-icon" href="https://monograph-media.s3.amazonaws.com/3c92cf11-a502-4cb3-b54c-c44cb6ac9b5c/favicon-32x32.png" />
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
 </head>
@@ -29,12 +28,27 @@
             <div class="collapse navbar-collapse" id="myNavbar">
                 <ul class="nav navbar-nav navbar-right">
                     <li><a href="https://math.seattleacademy.org/aldencutler/2013-1/html/about.html">About</a></li>
-                    <li><a href="https://math.seattleacademy.org/aldencutler/2013-1/html/projects.html">Projects</a></li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            Projects
+                        </a>
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink" id="dropdownProjects">
+                            <a class="dropdown-item" href="https://math.seattleacademy.org/aldencutler/2013-1/html/projects-current.html">Current Projects</a>
+                            <a class="dropdown-item" href="https://math.seattleacademy.org/aldencutler/2013-1/html/projects-past.html">Past Projects</a>
+                        </div>
+                    </li>
                     <li><a href="https://math.seattleacademy.org/aldencutler/2013-1/html/contact.html">Contact Us</a></li>
+                    <li>
+                        <form class="form-inline">
+                            <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+                            <button id="navbarSearch" class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+                        </form>
+                    </li>
                 </ul>
             </div>
         </div>
     </nav>
+
     <div id="myCarousel" class="carousel slide" data-ride="carousel">
         <!-- Indicators -->
         <ol class="carousel-indicators">
@@ -68,15 +82,14 @@
             <span class="sr-only">Next</span>
         </a>
     </div>
-    <!-- First Container -->
+   <!-- First Container -->
     <div class="container-fluid bg-1 text-center">
-        <h3 class="margin">Who Am I?</h3>
-        <img src="bird.jpg" class="img-responsive img-circle margin" style="display:inline" alt="Bird" width="350" height="350">
-        <h3>I'm an adventurer</h3>
+        <h3 class="margin">Header</h3>
+        <h4>Sub-header</h4>
     </div>
     <!-- Second Container -->
     <div class="container-fluid bg-2 text-center">
-        <h3 class="margin">What Am I?</h3>
+        <h3 class="margin">Header</h3>
         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </p>
         <a href="#" class="btn btn-default btn-lg">
             <span class="glyphicon glyphicon-search"></span> Search
@@ -88,15 +101,15 @@
         <div class="row">
             <div class="col-sm-4">
                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-                <img src="birds1.jpg" class="img-responsive margin" style="width:100%" alt="Image">
+                <img src="https://via.placeholder.com/300x250?text=300x250+MPU" class="img-responsive margin" style="width:100%" alt="Image">
             </div>
             <div class="col-sm-4">
                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-                <img src="birds2.jpg" class="img-responsive margin" style="width:100%" alt="Image">
+                <img src="https://via.placeholder.com/300x250?text=300x250+MPU" class="img-responsive margin" style="width:100%" alt="Image">
             </div>
             <div class="col-sm-4">
                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-                <img src="birds3.jpg" class="img-responsive margin" style="width:100%" alt="Image">
+                <img src="https://via.placeholder.com/300x250?text=300x250+MPU" class="img-responsive margin" style="width:100%" alt="Image">
             </div>
         </div>
     </div>
