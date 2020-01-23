@@ -82,10 +82,28 @@ p {
 }
 
 #navbarSearch:hover {
-    background-color: #ccc;
-    transition-duration: 0.4s;
+    background-color:#ccc;
+    transition-duration:0.4s;
+    -webkit-transition-duration:0.4s;
 }
 
 #dropdownProjects {
-    font-size:10px;
+    font-size: 10px;
+}
+
+form {
+    padding-top: 7px;
+}
+
+.dropdown-item {
+    text-align: left;
+    font-size: 12px;
+}
+
+.dropdown-menu{
+    letter-spacing: 20%;
+}
+
+#currentProjects {
+    text-align: justify;
 }
