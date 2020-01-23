@@ -76,3 +76,16 @@ p {
 .navbar-nav li a:hover {
     color: #1abc9c !important;
 }
+
+#navbarSearch {
+    color:black;
+}
+
+#navbarSearch:hover {
+    background-color: #ccc;
+    transition-duration: 0.4s;
+}
+
+#dropdownProjects {
+    font-size:10px;
+}
